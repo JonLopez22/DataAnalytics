@@ -42,10 +42,10 @@ b) How about between Breakup and Milkshake?
 8. At the upper right of Google Trends, click on the link for “Back to Classic Explore.” Notice that this view includes a section for “Compared breakdown by subregion.”
 
 a) What was the top state by interest for Milkshake?
-- Pennsylvania had the most interest
+- West Virginia had the most interest
 
 b) What was the top state by interest for Hamburger?
-- California had the most interest 
+-  South Dakota had the most interest 
 
 9. Use the download icon to download a csv file with these search trend results. Save it
 to your DataAnalytics/week-01 folder as GTrends_milkshake_hamburger_2024.csv
