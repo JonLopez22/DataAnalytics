@@ -25,7 +25,7 @@ b) What happened to the line for Milkshake? What do the high and low look like n
 - The lowest for milkshake was 23
 
 5. Why did the line for Milkshake change? Hint: Click on the icon next to “Interest over time” for more information about how trend results are displayed.
-- The line for milkshake changed because now its showing a collaboration of hamburgers and milkshakes. So milkshakes went down because milkshakes are not really ordered as much with hamburgers compared to hamburgers being ordered either alone or with another beverage.
+- Search interest over a specific time period, displayed on a relative scale from 0 to 100, where 100 signifies the peak interest for the time period of the chart.
 
 6. Add a third term to your search, this time for Breakup (Topic).
 
