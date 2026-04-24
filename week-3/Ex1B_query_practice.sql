@@ -9,7 +9,7 @@ FROM Products;
 -- 2. Write a query to identify the products where the unit price is $7.50 or less.
 SELECT ProductID, ProductName, UnitPrice
 FROM Products
-WHERE UnitPrice < 7.50;
+WHERE UnitPrice <= 7.50;
 
 -- 3. What are the products that we carry where we have no units on hand, but 1 or more units are on backorder? Write a query that answers this question.
 SELECT ProductID, ProductName, UnitsInStock, UnitsOnOrder
