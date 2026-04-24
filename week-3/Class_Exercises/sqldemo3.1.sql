@@ -94,3 +94,44 @@ from Employees;
 select ProductName, UnitPrice AS 'Original Price', UnitPrice*0.90 AS '10% Discount'
 from Products
 Order by ProductName ASC;
+
+-- Example 1
+SELECT o.OrderID,
+	c.CompanyName AS 'Customer',
+    o.OrderDate
+FROM Orders o
+JOIN Customers c ON o.CustomerID = c.CustomerID
+ORDER BY o.OrderID DESC
+LIMIT 5;
+
+-- Example 2
+SELECT OrderID, CompanyName, OrderDate
+FROM Orders
+JOIN Customers USING (CustomerID)
+ORDER BY OrderDate
+LIMIT 5;
+-- Example 3
+SELECT p.ProductName,
+c.CategoryName,
+p.UnitPrice
+FROM Products p
+INNER JOIN Categories c USING (CategoryID)
+ORDER BY c.CategoryName, p.ProductName
+LIMIT 6;
+
+-- Example 5
+-- Customers with zero orders will show 0 in order count
+SELECT c.CompanyName, COUNT(o.OrderID) AS 'Order Count'
+FROM Customers c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+GROUP BY c.CompanyName
+ORDER BY `Order Count` ASC
+LIMIT 5;
+
+SELECT COUNT(*) AS 'Total Orders'
+FROM Orders;
+SELECT SUM(Freight) AS 'Total Freight', 
+	AVG(Freight) AS 'Average Freight',
+    MIN(Freight) AS 'Minimum Freight',
+    MAX(Freight) AS 'Maximum Freight'
+FROM Orders;
