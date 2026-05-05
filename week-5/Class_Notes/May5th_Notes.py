@@ -59,3 +59,19 @@ print(string.replace("World", "Python"))  # Output: Hello, Python!
 # split a string 
 print(string.split(", "))  # Output: ['Hello', 'World!']
 
+# -------------------------------- #
+
+# Jonathan Lopez
+# 5/5/2026
+# user input in python
+
+name = input("Enter your name: ")
+print(f"Hello, {name}")
+
+# Ask the user to enter two numbers
+num1 = input("Enter the first number:")
+num2 = input("Enter the second number:")
+# Convert the input strings to integers
+num1 = int(num1)
+num2 = int(num2)
+print(num1 + num2)  # This will now add the two numbers
