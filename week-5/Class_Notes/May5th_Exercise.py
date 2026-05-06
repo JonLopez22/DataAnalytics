@@ -27,12 +27,19 @@ num3 = 3.14569
 print(round(num3, 2))
 
 # Accept multiple inputs on one line
-length, width = input("Enter the length and width of the rectangle: ").split()
-length = float(length)
-width = float(width)
 
-area = length * width
-perimeter = 2 * (length + width)
 
-print(f"The area of the rectangle is {area:.2f}")
+def rectangle_area(length, width):
+    area = length * width
+    return area
+
+
+if __name__ == "__main__":
+    length,width = input("Enter the length and width of the rectangle: ").split()
+    length = float(length)
+    width = float(width)
+
+    result = rectangle_area(length, width)
+
+print(f"The area of the rectangle is {result:.2f}")
 print(f"The perimeter of the rectangle is {perimeter:.2f}")
