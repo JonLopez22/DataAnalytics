@@ -1,0 +1,32 @@
+customer_id = 2997
+customer_name = "Jonathan Lopez"
+customer_gender = "male"
+customer_date_of_birth = "1997-06-29"
+driver_license_number = "D-577-080-5007"
+auto_policy_number = "AP-44552274"
+
+print(customer_id)
+print(customer_name)
+print(customer_gender)
+print(customer_date_of_birth)
+print(driver_license_number)
+print(auto_policy_number)
+
+Name = "Jonathan Lopez" # I wrote this as first name and last name, but it is actually the full name. I should have written it as full_name instead of Name.\
+
+Full_name = "Jonathan Lopez"
+City = "Brooklyn"
+State = "New York"
+print(Full_name)
+print(City)
+print(State)
+
+# a) What is the full list of reserved words that can’t be used for variable names?
+# True, False and None are reserved words that cannot be used as variable names.
+# b) Pick 5 of these words and review the explanation for how it is used as a keyword in Python. Add these 5 definitions as # comments to your exercise document. Put ^^ around any terms that you are not familiar with.
+# if, for, def, import, return
+# if - Used to make a conditional statement.
+# for - Used to create a for loop
+# def - Used to define a function or method in python
+# import - Used to import a module
+# return - Used to exit a function or/and return a value.
